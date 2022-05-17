@@ -1,0 +1,279 @@
+*{
+	margin: 0 auto;
+	list-style: none;
+}
+body{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#menu_desk{
+	display: none;
+	font-size: 10px;
+}
+#menu_mobile{
+	display: block;
+	margin: 0;
+	text-align: justify;
+}
+.container, #contato{
+	box-shadow: 0 0 10px rgb(2, 48, 52);
+	padding: 20px;
+}
+
+#contato {
+	padding: 0 100px 0 100px;
+}
+
+.numero {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: white;
+}
+
+.mail {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.fa-whatsapp-square {
+	color: #007bff;
+}
+
+.fa-whatsapp-square:hover {
+	color: #18599f;
+}
+
+.mail:hover {
+	color: #12559d;
+}
+
+p {
+	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+nav {
+	display: flex;
+	padding: 15px 0;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav > a {
+	font-size: 1.25rem;
+}
+
+.navbar-nav {
+	display: flex;
+}
+
+.navbar-nav > li {
+	margin-right: 20px;
+}
+
+.foto-perfil {
+	height: 100%;
+	max-width: auto;
+	border-radius: 50%;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 1.75rem;
+}
+
+.icones {
+	padding-left: 5px;
+}
+
+.titulosBrancos {
+	text-decoration: underline;
+	text-underline-position: under;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+}
+
+.titulosVerdes {
+	text-decoration: underline;
+	text-underline-position: under;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #18bc9c
+}
+
+.paragrafoBrancos {
+	color: white !important;
+}
+
+#projetos {
+	display: flex;
+	flex-direction: row;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+	padding: 80px;
+}
+
+.menuBar {
+	position: fixed;
+	width: 100%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+p {
+	color: white !important;
+}
+
+.corPrimaria {
+	background-color: #18bc9c;
+}
+
+.itemMenu {
+	color: white;
+}
+
+.lead {
+	font-size: 1.25rem;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+.lista-hab {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	font-size: 1.25rem;
+}
+
+.lista-hab > li {
+	list-style: circle;
+}
+
+.btn-dark {
+	color: #fff;
+	background-color: #343a40;
+	border-color: #343a40;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: 400;
+	text-align: center;
+	padding: 5px 10px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+.p-btn {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+#paginas{
+	margin: 0 auto;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 200px;
+	margin-top: 0px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a{
+	color: black;
+}
+.dropdown-content li {
+	padding: 10px;
+}
+.dropdown-content li:hover {
+	background: #d7d7d745;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+ul li:hover{
+    padding: 5px;
+    border-radius: 5px;
+    background: #5b6875;
+}
+#butoes{
+	position: fixed;
+	left: 0;
+	bottom: 30px;
+	width: 100%;
+	height: 60px;
+	color: white;
+	text-align: center;
+	display: table;
+}
+#butoes button{
+	padding: 0;
+	display: inline-block;
+	color: black;
+	font-size: 25px;
+	padding: 3px 8px;
+	background-color: brown;
+	border: none;
+}
+#butoes button:hover{
+	background-color: #534f4f;
+}
+
+@media (min-width: 675px) {
+	nav {
+		display: flex;
+		padding: 20px;
+	}
+	#menu_desk{
+		display: block;
+		font-size: 10px;
+
+	}
+	#menu_mobile{
+		display: none;
+	}
+}
+@media (min-width: 780px) {
+	#menu_desk{
+		font-size: 12px;
+
+	}
+}
+@media (min-width: 945px) {
+	#menu_desk{
+		font-size: 15px;
+
+	}
+}
+@media (min-width: 1120px) {
+	#menu_desk{
+		font-size: 1.25rem;
+	}
+}
